@@ -11,11 +11,12 @@ export const channels = [
             "name": "Harkirat Singh",
             "expertise": "Technology, programming, AI development",
             "focus": "Educating and inspiring tech enthusiasts and developers"
-        }
+        },
+        "rating": 92
     },
     {
         "channel_name": "CodeWithHarry",
-        "channel_url": "https://www.youtube.com/@CodeWithHarry",
+        "channel_url": "https://www.youtube.com/@CodeWith MOBILEHarry",
         "profile_image_url": "https://yt3.googleusercontent.com/ytc/AIdro_kX3sdbuu3KFmRPsmlu0R5Rx_BhpxwupjtvJmkEdNfla7w=s160-c-k-c0x00ffffff-no-rj",
         "description": "Programming tutorials, full-stack web development, and DSA tutorials.",
         "quick_summary": "programming, web dev and DSA",
@@ -25,7 +26,8 @@ export const channels = [
             "name": "Harry",
             "expertise": "Programming, Software Development",
             "focus": "Making coding simple and easy for everyone"
-        }
+        },
+        "rating": 95
     },
     {
         "channel_name": "Telusko",
@@ -39,7 +41,8 @@ export const channels = [
             "name": "Navin Reddy",
             "expertise": "Programming, Tech Education",
             "focus": "Simplifying complex programming concepts for learners"
-        }
+        },
+        "rating": 90
     },
     {
         "channel_name": "Gaurav Sen",
@@ -53,7 +56,8 @@ export const channels = [
             "name": "Gaurav Sen",
             "expertise": "System Design, Programming",
             "focus": "Educating viewers on system design and architecture"
-        }
+        },
+        "rating": 88
     },
     {
         "channel_name": "Hitesh Choudhary",
@@ -67,21 +71,23 @@ export const channels = [
             "name": "Hitesh Choudhary",
             "expertise": "Programming, Career Development",
             "focus": "Guiding viewers towards successful tech careers"
-        }
+        },
+        "rating": 93
     },
     {
         "channel_name": "Piyush Garg",
-        "channel_url": "https://m.youtube.com/@piyushgargdev",
+        "channel_url": "https://www.youtube.com/@piyushgargdev",
         "profile_image_url": "https://yt3.googleusercontent.com/3acddexuFlA5yKRS2--11NeqhCiik-0cntUPjk_QjlsA4ScmQUPWNmeBLweVUQjWXTCLT26lsw=s160-c-k-c0x00ffffff-no-rj",
-        "description": "Programming tutorials and career advice for tech enthusiasts.",
+        "description": "Programming tutorials, web development, and career advice for tech enthusiasts, focusing on MERN stack, Node.js, and full-stack development.",
         "quick_summary": "web development and career guidance",
-        "content_categories": ["Programming", "Tech career", "Web development"],
-        "popular_topics": ["Coding bootcamps", "Career guidance", "Web development tutorials"],
+        "content_categories": ["Programming", "Web Development", "Tech Career", "Full-Stack Development"],
+        "popular_topics": ["MERN Stack", "Node.js Bootcamp", "React.js", "Career Guidance", "Coding Tutorials"],
         "creator_details": {
-            "name": "Hitesh Choudhary",
-            "expertise": "Programming, Career Development",
-            "focus": "Guiding viewers towards successful tech careers"
-        }
+            "name": "Piyush Garg",
+            "expertise": "Software Engineering, Web Development, Tech Education",
+            "focus": "Empowering beginners and experienced developers with coding skills and career advice"
+        },
+        "rating": 85
     },
     {
         "channel_name": "take U forward",
@@ -95,7 +101,8 @@ export const channels = [
             "name": "Raj Vikramaditya (Striver)",
             "expertise": "DSA, System Design",
             "focus": "Helping students crack top tech interviews"
-        }
+        },
+        "rating": 96
     },
     {
         "channel_name": "Apna College",
@@ -109,12 +116,13 @@ export const channels = [
             "name": "Aman Dhattarwal and Shraddha Khapra",
             "expertise": "Programming, Career Guidance",
             "focus": "Preparing students for tech placements and development"
-        }
+        },
+        "rating": 94
     },
     {
         "channel_name": "Love Babbar",
         "channel_url": "https://www.youtube.com/@LoveBabbar",
-        "profile_image_url": "https://yt3.googleusercontent.com/ytc/AIdro_krv40fPSZ2UDcfAgx-mvf86wIm52oBZnuMLiaju9oxvQ=s160-c-k-c0x00ffffff-no-rj",
+        "profile_image_url": "https://yt3.ggpht.com/ytc/AIdro_krv40fPSZ2UDcfAgx-mvf86wIm52oBZnuMLiaju9oxvQ=s160-c-k-c0x00ffffff-no-rj",
         "description": "DSA series and coding interview preparation for tech students.",
         "quick_summary": "DSA and coding interviews",
         "content_categories": ["DSA", "Coding Interviews", "Programming"],
@@ -123,7 +131,8 @@ export const channels = [
             "name": "Love Babbar",
             "expertise": "DSA, Interview Prep",
             "focus": "Helping students ace coding interviews"
-        }
+        },
+        "rating": 91
     },
     {
         "channel_name": "Kunal Kushwaha",
@@ -137,9 +146,9 @@ export const channels = [
             "name": "Kunal Kushwaha",
             "expertise": "DevOps, Cloud Native, Open Source",
             "focus": "Empowering students and developers to grow via tech education and community involvement"
-        }
-    }
-,
+        },
+        "rating": 89
+    },
     {
         "channel_name": "Fraz",
         "channel_url": "https://m.youtube.com/@mohammadfraz",
@@ -152,7 +161,8 @@ export const channels = [
             "name": "Fraz",
             "expertise": "Competitive Programming, DSA",
             "focus": "Improving DSA skills and problem-solving"
-        }
+        },
+        "rating": 87
     },
     {
         "channel_name": "Sanchit Jain",
@@ -166,7 +176,8 @@ export const channels = [
             "name": "Sanchit Jain",
             "expertise": "System Design, Software Architecture",
             "focus": "Preparing students for system design rounds"
-        }
+        },
+        "rating": 86
     },
     {
         "channel_name": "Anuj Bhaiya",
@@ -180,7 +191,8 @@ export const channels = [
             "name": "Anuj Kumar Sharma",
             "expertise": "Programming, Career Development",
             "focus": "Helping students grow their careers through tech"
-        }
+        },
+        "rating": 90
     },
     {
         "channel_name": "Coding Ninjas",
@@ -194,7 +206,8 @@ export const channels = [
             "name": "Coding Ninjas Team",
             "expertise": "Programming, Tech Education",
             "focus": "Empowering students with coding skills"
-        }
+        },
+        "rating": 88
     },
     {
         "channel_name": "The Code Mate",
@@ -208,6 +221,7 @@ export const channels = [
             "name": "The Code Mate",
             "expertise": "Web Development",
             "focus": "Building real-world web development skills"
-        }
+        },
+        "rating": 84
     }
-];
+]
