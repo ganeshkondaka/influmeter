@@ -22,7 +22,7 @@ export const PersonBar = () => {
                                     {/* Channel Info */}
                                     <div className='w-[7rem] sm:w-[10rem] md:w-[12rem]'>
                                         <div className='text-white text-[10px] sm:text-xs md:text-sm font-semibold'>{channel.channel_name}</div>
-                                        <div className='text-[7px] sm:text-[8px] md:text-[8px] text-cyan-300'> - {channel.quick_summary}</div>
+                                        <div className='text-[7px] sm:text-[8px] md:text-[10px] text-cyan-300'> - {channel.quick_summary}</div>
                                     </div>
 
                                     {/* Rating Bar */}

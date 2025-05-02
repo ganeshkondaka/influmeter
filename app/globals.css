@@ -3,11 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-default: var(--font-orbitron); /* Added Orbitron as the default font */
 }
 
+@layer utilities {
+  .clip-hexagon {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 98% 100%, 0% 100%);
+  }
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -25,11 +27,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-default, Arial, Helvetica, sans-serif); /* Updated to use Orbitron */
-}
-
-@layer utilities {
-  .clip-hexagon {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 98% 100%, 0% 100%);
-  }
+  font-family: Arial, Helvetica, sans-serif;
 }
